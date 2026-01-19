@@ -1,61 +1,115 @@
 {
-  "version": "1.0.3",
+  "version": "2.0.0",
   "messageDownloads": [
-    {
-      "trigger": "hello",
-      "response": "Hello! I'm online and ready."
-    },
-    {
-      "trigger": "hi",
-      "response": "Hi there. What do you need?"
-    },
-    {
-      "trigger": "help",
-      "response": "I can answer questions, show info, or guide you."
-    },
-    {
-      "trigger": "sites",
-      "response": "Helpful sites: MDN, GitHub, JS.org, W3Schools."
-    },
-    {
-      "trigger": "bright",
-      "response": "Brightness increased."
-    },
-    {
-      "trigger": "dark",
-      "response": "Dark mode enabled."
-    },
-    {
-      "trigger": "info",
-      "response": "<div style='padding:8px;background:#202040;border:1px solid #5050a0;'>Info loaded.</div>"
-    },
-    {
-      "trigger": "demo",
-      "response": "<button onclick='alert(\"Demo button clicked\")'>Demo</button>"
-    },
-    {
-      "trigger": "update",
-      "response": "Your system is up to date."
-    },
-    {
-      "trigger": "error",
-      "response": "Something went wrong. Try again."
-    },
-    {
-      "trigger": "greet",
-      "response": "Welcome back."
-    },
-    {
-      "trigger": "encourage",
-      "response": "You're doing good. Keep going."
-    },
-    {
-      "trigger": "lockout",
-      "response": "A new update is available. Please update."
-    },
-    {
-      "trigger": "default",
-      "response": "I don't understand that yet."
-    }
+    { "trigger": "hello", "response": "Hello! I'm online and ready." },
+    { "trigger": "hi", "response": "Hi there. What do you need?" },
+    { "trigger": "hey", "response": "Hey! How can I help?" },
+    { "trigger": "greet", "response": "Welcome back." },
+
+    { "trigger": "help", "response": "__LIST__" },
+
+    { "trigger": "bright", "response": "Brightness increased." },
+    { "trigger": "dark", "response": "Dark mode enabled." },
+    { "trigger": "light", "response": "Light mode enabled." },
+    { "trigger": "theme", "response": "Theme updated." },
+    { "trigger": "color", "response": "Color settings changed." },
+
+    { "trigger": "info", "response": "<div style='padding:8px;background:#202040;border:1px solid #5050a0;'>Info loaded.</div>" },
+    { "trigger": "demo", "response": "<button onclick='alert(\"Demo button clicked\")'>Demo</button>" },
+    { "trigger": "box", "response": "<div style='padding:8px;background:#303060;'>UI box displayed.</div>" },
+    { "trigger": "panel", "response": "<div style='padding:8px;background:#202040;'>Panel opened.</div>" },
+    { "trigger": "window", "response": "Opening a new window…" },
+
+    { "trigger": "update", "response": "Your system is up to date." },
+    { "trigger": "version", "response": "You are running the latest AI version." },
+    { "trigger": "install", "response": "Installation complete." },
+    { "trigger": "upgrade", "response": "Upgrade successful." },
+    { "trigger": "patch", "response": "Patch applied." },
+
+    { "trigger": "error", "response": "Something went wrong. Try again." },
+    { "trigger": "fail", "response": "Operation failed. Please retry." },
+    { "trigger": "broken", "response": "This feature is currently unavailable." },
+    { "trigger": "bug", "response": "Bug report logged." },
+    { "trigger": "crash", "response": "Crash prevented. System stable." },
+
+    { "trigger": "sites", "response": "Helpful sites: MDN, GitHub, JS.org, W3Schools." },
+    { "trigger": "github", "response": "GitHub is great for hosting your code." },
+    { "trigger": "docs", "response": "Documentation helps you understand features better." },
+    { "trigger": "learn", "response": "Learning mode activated." },
+    { "trigger": "tutorial", "response": "Opening tutorial…" },
+
+    { "trigger": "thanks", "response": "You're welcome!" },
+    { "trigger": "bye", "response": "Goodbye. I'll be here when you return." },
+    { "trigger": "morning", "response": "Good morning!" },
+    { "trigger": "night", "response": "Good night. System still online." },
+    { "trigger": "welcome", "response": "Welcome!" },
+
+    { "trigger": "encourage", "response": "You're doing good. Keep going." },
+    { "trigger": "motivate", "response": "You’ve got this." },
+    { "trigger": "focus", "response": "Stay focused. You're close." },
+    { "trigger": "progress", "response": "Progress saved." },
+    { "trigger": "continue", "response": "Continuing where you left off." },
+
+    { "trigger": "system", "response": "System running normally." },
+    { "trigger": "status", "response": "All systems operational." },
+    { "trigger": "cpu", "response": "CPU usage stable." },
+    { "trigger": "memory", "response": "Memory usage normal." },
+    { "trigger": "network", "response": "Network connection stable." },
+
+    { "trigger": "scan", "response": "Scan complete." },
+    { "trigger": "check", "response": "Performing system check…" },
+    { "trigger": "security", "response": "Security scan complete." },
+    { "trigger": "safe", "response": "Everything looks safe." },
+    { "trigger": "lockout", "response": "A new update is available. Please update." },
+
+    { "trigger": "reload", "response": "Reloading components…" },
+    { "trigger": "restart", "response": "Restarting subsystem…" },
+    { "trigger": "reset", "response": "Settings reset." },
+    { "trigger": "factory", "response": "Factory reset requested." },
+    { "trigger": "clear", "response": "Cleared temporary data." },
+
+    { "trigger": "ping", "response": "Pong." },
+    { "trigger": "test", "response": "Test successful." },
+    { "trigger": "checkin", "response": "Checking in. All good." },
+    { "trigger": "alive", "response": "I'm here and running." },
+    { "trigger": "ready", "response": "Ready when you are." },
+
+    { "trigger": "mode", "response": "Mode updated." },
+    { "trigger": "toggle", "response": "Toggled setting." },
+    { "trigger": "switch", "response": "Switching modes…" },
+    { "trigger": "activate", "response": "Activated." },
+    { "trigger": "deactivate", "response": "Deactivated." },
+
+    { "trigger": "sound", "response": "Sound settings updated." },
+    { "trigger": "mute", "response": "Muted." },
+    { "trigger": "volume", "response": "Volume adjusted." },
+    { "trigger": "audio", "response": "Audio system ready." },
+    { "trigger": "beep", "response": "Beep!" },
+
+    { "trigger": "time", "response": "Time settings updated." },
+    { "trigger": "date", "response": "Date settings updated." },
+    { "trigger": "clock", "response": "Clock synchronized." },
+    { "trigger": "timezone", "response": "Timezone updated." },
+    { "trigger": "calendar", "response": "Calendar loaded." },
+
+    { "trigger": "battery", "response": "Battery level normal." },
+    { "trigger": "power", "response": "Power settings updated." },
+    { "trigger": "charge", "response": "Charging…" },
+    { "trigger": "energy", "response": "Energy usage optimized." },
+    { "trigger": "sleep", "response": "Entering sleep mode…" },
+
+    { "trigger": "wifi", "response": "WiFi connected." },
+    { "trigger": "internet", "response": "Internet connection stable." },
+    { "trigger": "online", "response": "Online and ready." },
+    { "trigger": "offline", "response": "Offline mode enabled." },
+    { "trigger": "connect", "response": "Connecting…" },
+
+    { "trigger": "storage", "response": "Storage usage normal." },
+    { "trigger": "disk", "response": "Disk check complete." },
+    { "trigger": "files", "response": "File system ready." },
+    { "trigger": "folder", "response": "Folder opened." },
+    { "trigger": "path", "response": "Path updated." },
+
+    { "trigger": "default", "response": "I don't understand that yet." }
   ]
 }
