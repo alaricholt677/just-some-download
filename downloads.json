@@ -1,57 +1,49 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "messageDownloads": [
     {
-      "prompt": "hello",
+      "trigger": "hello",
       "response": "Hello! I'm online and ready."
     },
     {
-      "prompt": "hi",
+      "trigger": "hi",
       "response": "Hi there. What do you need?"
     },
     {
-      "prompt": "help",
+      "trigger": "help",
       "response": "I can answer questions, show info, or guide you."
     },
     {
-      "prompt": "sites",
-      "response": "Helpful sites: MDN, GitHub, JS.org, W3Schools."
-    },
-    {
-      "prompt": "bright",
+      "trigger": "bright",
       "response": "Brightness increased."
     },
     {
-      "prompt": "dark",
+      "trigger": "dark",
       "response": "Dark mode enabled."
     },
     {
-      "prompt": "info",
+      "trigger": "info",
       "response": "<div style='padding:8px;background:#202040;border:1px solid #5050a0;'>Info loaded.</div>"
     },
     {
-      "prompt": "demo",
+      "trigger": "demo",
       "response": "<button onclick='alert(\"Demo button clicked\")'>Demo</button>"
     },
     {
-      "prompt": "update",
+      "trigger": "update",
       "response": "Your system is up to date."
     },
     {
-      "prompt": "error",
+      "trigger": "error",
       "response": "Something went wrong. Try again."
     },
     {
-      "prompt": "greet",
-      "response": "Welcome back."
-    },
-    {
-      "prompt": "encourage",
+      "trigger": "encourage",
       "response": "You're doing good. Keep going."
     },
     {
-      "prompt": "lockout",
-      "response": "A new update is available. Please update."
+      "trigger": "default",
+      "response": "I don't understand that yet."
     }
   ]
 }
