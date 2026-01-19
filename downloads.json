@@ -1,53 +1,57 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "messageDownloads": [
     {
-      "trigger": "aimsg",
-      "content": "Hello, user. Your AI subsystem is now online. How can I assist you today?"
+      "prompt": "hello",
+      "response": "Hello! I'm online and ready."
     },
     {
-      "trigger": "help.general",
-      "content": "I can help you explore your OS, open apps, fetch updates, explain features, or guide you through tasks."
+      "prompt": "hi",
+      "response": "Hi there. What do you need?"
     },
     {
-      "trigger": "help.sites",
-      "content": "Here are useful sites: https://developer.mozilla.org, https://github.com, https://js.org, https://w3schools.com"
+      "prompt": "help",
+      "response": "I can answer questions, show info, or guide you."
     },
     {
-      "trigger": "ui.bright",
-      "content": "<div style='color:#ffd860;'>Your interface brightness has been increased for better visibility.</div>"
+      "prompt": "sites",
+      "response": "Helpful sites: MDN, GitHub, JS.org, W3Schools."
     },
     {
-      "trigger": "ui.dark",
-      "content": "<div style='color:#80a0ff;'>Dark mode activated. Your eyes will thank you.</div>"
+      "prompt": "bright",
+      "response": "Brightness increased."
     },
     {
-      "trigger": "element.buttonDemo",
-      "content": "<button onclick='alert(\"Button from downloads.json clicked!\")'>Click me</button>"
+      "prompt": "dark",
+      "response": "Dark mode enabled."
     },
     {
-      "trigger": "element.infoBox",
-      "content": "<div style='padding:10px;background:#202040;border:1px solid #5050a0;'>This is an info box loaded from the AI message pack.</div>"
+      "prompt": "info",
+      "response": "<div style='padding:8px;background:#202040;border:1px solid #5050a0;'>Info loaded.</div>"
     },
     {
-      "trigger": "system.update",
-      "content": "Your system is up to date. No further updates are required at this time."
+      "prompt": "demo",
+      "response": "<button onclick='alert(\"Demo button clicked\")'>Demo</button>"
     },
     {
-      "trigger": "system.error",
-      "content": "<div style='color:#ff6060;'>An error occurred. Please try again or check your network connection.</div>"
+      "prompt": "update",
+      "response": "Your system is up to date."
     },
     {
-      "trigger": "ai.encourage",
-      "content": "You're doing great. Keep building. Every subsystem you create makes your OS more alive."
+      "prompt": "error",
+      "response": "Something went wrong. Try again."
     },
     {
-      "trigger": "ai.greeting",
-      "content": "Welcome back. Your OS missed you."
+      "prompt": "greet",
+      "response": "Welcome back."
     },
     {
-      "trigger": "ai.installComplete",
-      "content": "AIUpdatePhoenix installation complete. All message blocks successfully loaded."
+      "prompt": "encourage",
+      "response": "You're doing good. Keep going."
+    },
+    {
+      "prompt": "lockout",
+      "response": "A new update is available. Please update."
     }
   ]
 }
