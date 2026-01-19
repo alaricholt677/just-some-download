@@ -42,8 +42,16 @@
       "response": "Something went wrong. Try again."
     },
     {
+      "trigger": "greet",
+      "response": "Welcome back."
+    },
+    {
       "trigger": "encourage",
       "response": "You're doing good. Keep going."
+    },
+    {
+      "trigger": "lockout",
+      "response": "A new update is available. Please update."
     },
     {
       "trigger": "default",
