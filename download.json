@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "messageDownloads": [
+    {
+      "trigger": "aimsg",
+      "content": "Hello, user. Your AI subsystem is now online. How can I assist you today?"
+    },
+    {
+      "trigger": "help.general",
+      "content": "I can help you explore your OS, open apps, fetch updates, explain features, or guide you through tasks."
+    },
+    {
+      "trigger": "help.sites",
+      "content": "Here are useful sites: https://developer.mozilla.org, https://github.com, https://js.org, https://w3schools.com"
+    },
+    {
+      "trigger": "ui.bright",
+      "content": "<div style='color:#ffd860;'>Your interface brightness has been increased for better visibility.</div>"
+    },
+    {
+      "trigger": "ui.dark",
+      "content": "<div style='color:#80a0ff;'>Dark mode activated. Your eyes will thank you.</div>"
+    },
+    {
+      "trigger": "element.buttonDemo",
+      "content": "<button onclick='alert(\"Button from downloads.json clicked!\")'>Click me</button>"
+    },
+    {
+      "trigger": "element.infoBox",
+      "content": "<div style='padding:10px;background:#202040;border:1px solid #5050a0;'>This is an info box loaded from the AI message pack.</div>"
+    },
+    {
+      "trigger": "system.update",
+      "content": "Your system is up to date. No further updates are required at this time."
+    },
+    {
+      "trigger": "system.error",
+      "content": "<div style='color:#ff6060;'>An error occurred. Please try again or check your network connection.</div>"
+    },
+    {
+      "trigger": "ai.encourage",
+      "content": "You're doing great. Keep building. Every subsystem you create makes your OS more alive."
+    },
+    {
+      "trigger": "ai.greeting",
+      "content": "Welcome back. Your OS missed you."
+    },
+    {
+      "trigger": "ai.installComplete",
+      "content": "AIUpdatePhoenix installation complete. All message blocks successfully loaded."
+    }
+  ]
+}
