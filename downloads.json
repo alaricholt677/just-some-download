@@ -109,7 +109,10 @@
     { "trigger": "files", "response": "File system ready." },
     { "trigger": "folder", "response": "Folder opened." },
     { "trigger": "path", "response": "Path updated." },
-
+{
+  "trigger": "example domain",
+  "response": "<div style='background:#0d0d12;border:1px solid #3f3f70;padding:12px;border-radius:6px;font-family:Consolas,monospace;color:#e0e0ff;position:relative;'><button onclick='navigator.clipboard.writeText(`<!DOCTYPE html>\\n<html>\\n<head>\\n<title>Example Domain</title>\\n</head>\\n<body style=\\\"background:#fafafa;font-family:sans-serif;padding:40px;\\\">\\n<h1>Example Domain</h1>\\n<p>This domain is for use in illustrative examples.</p>\\n</body>\\n</html>`)' style='position:absolute;top:8px;right:8px;background:#3030a0;border:1px solid #6060ff;color:white;padding:4px 8px;font-size:11px;cursor:pointer;border-radius:4px;'>Copy</button><div style='white-space:pre-wrap;font-size:13px;margin-top:20px;'><!DOCTYPE html>\n<html>\n<head>\n<title>Example Domain</title>\n</head>\n<body style=\"background:#fafafa;font-family:sans-serif;padding:40px;\">\n<h1>Example Domain</h1>\n<p>This domain is for use in illustrative examples.</p>\n</body>\n</html></div></div>"
+}
     { "trigger": "default", "response": "I don't understand that yet." }
   ]
 }
