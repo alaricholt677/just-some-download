@@ -14,6 +14,10 @@
       "response": "I can answer questions, show info, or guide you."
     },
     {
+      "trigger": "sites",
+      "response": "Helpful sites: MDN, GitHub, JS.org, W3Schools."
+    },
+    {
       "trigger": "bright",
       "response": "Brightness increased."
     },
